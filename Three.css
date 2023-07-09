@@ -1,0 +1,72 @@
+body {
+    background-image: url('Image.jpg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #navbar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #navbar ul li {
+    display: inline-block;
+    margin-left: 10px;
+  }
+  
+  #navbar ul li a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  #content {
+    text-align: center;
+    margin-top: 150px;
+  }
+  
+  h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 48px;
+  }
+  
+  p {
+    color: white;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  #buttons {
+    margin-top: 30px;
+  }
+  
+  button {
+    border-radius: 20px;
+    border: 2px solid aquamarine;
+    background-color: transparent;
+    color: aquamarine;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button.subscribe-button:hover {
+    background-color: aquamarine;
+    color: white;
+  }
+  
+  button.watch-more-button {
+    margin-left: 10px;
+  }
+  
